@@ -1,5 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
+import {Header} from "../components/Header/index.tsx"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Fresh App</title>
       </Head>
+      <Header />
       <div>
         <img
           src="/logo.svg"
