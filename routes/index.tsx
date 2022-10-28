@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
-import {Header} from "../components/Header/index.tsx"
+import { Header } from "../components/Header/index.tsx"
 
 export default function Home() {
   return (
